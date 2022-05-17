@@ -1,0 +1,61 @@
+*
+ {
+    font-family: verdana;
+  }
+  body{display: flex;align-items: center;
+    justify-content: center ; height: 100vh;
+    background-color: #333;
+    background-image: url(https://imagens.silviaarmarinho.com.br/detalhes/tecido_colecao_xadrez_basics_grama_det.jpg);
+    }
+  
+  h1 {
+      text-align: center;
+      color: white;
+  }
+  div {
+      text-align: center;
+  }
+  table {
+      margin: 1em auto;
+      border-collapse: collapse;
+      color: aliceblue;
+  }
+   label{
+       color: aliceblue;
+    }
+   td {
+      border: 1px solid rgb(182, 243, 113);
+      width: 30px;
+      height: 30px;
+      text-align: center;
+  }
+  .blocked, .flag {
+      background: rgb(9, 97, 1);    
+  }
+  .n1, .n2, .n3, .n4, .n5, .n6, .n7, .n8 {
+      background-color: rgb(101, 199, 88);
+  }
+  .n1 {
+      color: rgb(255, 13, 13);
+  }
+  .n2 {
+      color: rgb(255, 123, 0);
+  }
+  .n3 {
+      color: rgb(255, 217, 0);
+  }
+  .n4 {
+      color: rgb(162, 0, 255);
+  }
+  .n5 {
+      color: rgb(4, 0, 255);
+  }
+  .n6 {
+      color: rgb(255, 0, 221);
+  }
+  .n7 {
+      color: rgb(95, 9, 95);
+  }
+  .n8 {
+      color: rgb(255, 58, 124);
+  }
